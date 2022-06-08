@@ -93,15 +93,7 @@
   width: 100%;
 }
 
-@media (min-width: 1200px){
-.buttons-container {
-    flex-grow: 0;
-    max-width: 83.333333%;
-    flex-basis: 83.333333%;
-  }
-}
-
-@media (max-width: 700px){
+@media (max-width: 600px){
 .buttons-container {
     flex-direction: column;
     display: flex;

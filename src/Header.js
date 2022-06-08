@@ -22,9 +22,9 @@ function Header(){
                 Discover all possibilities of using this powerfull tool and create science 
                 figures, posters and infographics.
                 </h1>
-                <span className="start-creating-now">
-                Start Creating Now
-                </span>
+                <a href="https://mindthegraph.com/app/auth/register?from_url=/" className="start-creating-now">
+                <span>Start Creating Now</span>
+                </a>
             </div>
         </div>
     )
