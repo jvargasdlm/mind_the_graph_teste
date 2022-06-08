@@ -16,6 +16,13 @@ function Header(){
                     </a>
                 </div>
             </div>
+
+            <div className="header-container">
+                <h1 className="h1">
+                Discover all possibilities of using this powerfull tool and create science 
+                figures, posters and infographics.
+                </h1>
+            </div>
         </div>
     )
 }

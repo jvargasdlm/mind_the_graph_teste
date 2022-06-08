@@ -116,89 +116,36 @@
   .conteudo-single{width: 100%;}
 }
 
-  
-.center{
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 2%;
-  display: flex;
-  flex-wrap: wrap;
+.header-container{
+  color: #fff;
+  height: 600px;
+  position: relative;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  padding: 120px 111px;
+  text-align: left;
+  margin-top: 30px;
 }
 
-.main{
-  padding: 40px 0;
-  width: 100%;
-  background-color: blueviolet;
-  background-image: url('https://cursos.dankicode.com/app/Views/public/images/home/banner-home.png');
-  background-position: center;
-  background-size: cover;
-  min-height: 400px;
+
+@media (min-width: 1280px){
+.header-container {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+    
+  }
 }
 
-.menu{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.h1{
+  margin: 80px 0 0 0;
+  font-size: 36px;
+  font-weight: 900;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
-
-.menu h3{
-  color: white;
-}
-
-.menu a{
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  padding: 3px 8px;
-  border-radius: 5px;
-}
-
-.form{
-  display: flex;
-  width: 100%;
-  max-width: 600px;
-  margin: 40px auto;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.form h2{
-  color: white;
-  text-transform: uppercase;
-  font-size: 28px;
-  font-weight: normal;
-}
-
-.items-form{
-  margin:0 auto;
-  max-width: 540px;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.items-form input[type=text]{
-  width: 48%;
-  height: 30px;
-  margin: 8px 0px;
-  padding-left: 10px;
-}
-
-.items-form input[type=submit]{
-  width: 100%;
-  height: 40px;
-  background-color: #e7426b;
-  cursor: pointer;
-  color:white;
-  border: 0;
-  font-size: 19px;
-}
-
-.conteudo-single{
-  margin-top: 40px;
-  width: 50%;
-  padding: 8px 30px;
-}
-
