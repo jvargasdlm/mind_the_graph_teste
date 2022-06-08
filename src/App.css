@@ -1,10 +1,10 @@
-*{
+/* *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+} */
 
-.top{
+.header{
   padding: 37px 43px;
   top: 0px;
   left: 0px;
@@ -14,6 +14,22 @@
   opacity: 1;
 }
 
+.header-options{
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+  transition: all .5s;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-left: 700;
+}
+
 .logo_mindthegraph{
   width: 135px;
   height: 45px;
@@ -21,6 +37,30 @@
   max-height: 100%;
   background: transparent url('img/logo_mindthegraph.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+
+.buttons-container{
+  width: 307px;
+  padding: 10px 20px 10px 0;
+  text-align: right;
+  
+  /* flex-direction: column; */
+}
+
+.header-button-1{
+  top: 48px;
+  left: 742px;
+  width: 73px;
+  height: 19px;
+  text-align: left;
+  font-family: 'Lato' bold;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;  
+  font-size: 1  px;
+  font-weight: bold;
+  margin-left: 30px;
+  text-decoration: none;
 }
   
 .center{
